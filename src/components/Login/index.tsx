@@ -14,7 +14,7 @@ const SingInSchema = yup.object().shape({
   email: yup
     .string()
     .email('The Email must be a valid email.')
-    .required('You must provide a email address.'),
+    .required('You must provide an email address.'),
   password: yup
     .string()
     .min(6, 'The Password must be at least 6 characters long.')

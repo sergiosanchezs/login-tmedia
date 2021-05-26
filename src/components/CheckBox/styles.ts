@@ -26,6 +26,7 @@ export const HiddenCheckbox = styled.input`
   height: 0;
   overflow: hidden;
   width: 0;
+  z-index: -1;
 `;
 
 export const StyledCheckbox = styled.div<CheckBoxProps>`
